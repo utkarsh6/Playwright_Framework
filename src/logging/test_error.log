@@ -1,0 +1,52 @@
+2024-07-31T02:13:45+05:30 [error]: Error finding or clicking the element with title 'Test 2 | Contact | Salesforce': Error: locator.waitFor: Test ended.
+Call log:
+  [2m- waiting for locator('[title="Test 2 | Contact | Salesforce"]') to be visible[22m
+
+2024-07-31T02:13:46+05:30 [error]: Error finding or clicking the element with title 'Test 2 | Contact | Salesforce': Error: locator.waitFor: Test ended.
+Call log:
+  [2m- waiting for locator('[title="Test 2 | Contact | Salesforce"]') to be visible[22m
+
+2024-07-31T02:15:47+05:30 [error]: Error finding or clicking the element with title 'Test 2 | Contact | Salesforce': Error: locator.waitFor: Test ended.
+Call log:
+  [2m- waiting for locator('[title="Test 2 | Contact | Salesforce"]') to be visible[22m
+
+2024-07-31T02:15:51+05:30 [error]: Error finding or clicking the element with title 'Test 2 | Contact | Salesforce': Error: locator.waitFor: Test ended.
+Call log:
+  [2m- waiting for locator('[title="Test 2 | Contact | Salesforce"]') to be visible[22m
+
+2024-07-31T02:15:52+05:30 [error]: Error finding or clicking the element with title 'Test 2 | Contact | Salesforce': Error: locator.waitFor: Test ended.
+Call log:
+  [2m- waiting for locator('[title="Test 2 | Contact | Salesforce"]') to be visible[22m
+
+2024-07-31T02:15:54+05:30 [error]: Error finding or clicking the element with title 'Test 2 | Contact | Salesforce': Error: locator.waitFor: Test ended.
+Call log:
+  [2m- waiting for locator('[title="Test 2 | Contact | Salesforce"]') to be visible[22m
+
+2024-08-02T00:50:46+05:30 [error]: Error finding or clicking the element with title 'Test 2 | Contact | Salesforce': Error: locator.waitFor: Test ended.
+Call log:
+  [2m- waiting for locator('[title="Test 2 | Contact | Salesforce"]') to be visible[22m
+
+2024-08-02T00:50:46+05:30 [error]: Error finding or clicking the element with title 'Test 2 | Contact | Salesforce': Error: locator.waitFor: Test ended.
+Call log:
+  [2m- waiting for locator('[title="Test 2 | Contact | Salesforce"]') to be visible[22m
+
+2024-08-02T00:52:25+05:30 [error]: Error finding or clicking the element with title 'Test 2 | Contact | Salesforce': Error: locator.waitFor: Test ended.
+Call log:
+  [2m- waiting for locator('[title="Test 2 | Contact | Salesforce"]') to be visible[22m
+
+2024-08-02T00:53:00+05:30 [error]: Error finding or clicking the element with title 'Test 2 | Contact | Salesforce': Error: locator.waitFor: Test ended.
+Call log:
+  [2m- waiting for locator('[title="Test 2 | Contact | Salesforce"]') to be visible[22m
+
+2024-08-02T00:53:01+05:30 [error]: Error finding or clicking the element with title 'Test 2 | Contact | Salesforce': Error: locator.waitFor: Test ended.
+Call log:
+  [2m- waiting for locator('[title="Test 2 | Contact | Salesforce"]') to be visible[22m
+
+2024-08-02T00:54:09+05:30 [error]: Error finding or clicking the element with title 'Test 2 | Contact | Salesforce': Error: locator.waitFor: Test ended.
+Call log:
+  [2m- waiting for locator('[title="Test 2 | Contact | Salesforce"]') to be visible[22m
+
+2024-08-02T00:54:10+05:30 [error]: Error finding or clicking the element with title 'Test 2 | Contact | Salesforce': Error: locator.waitFor: Test ended.
+Call log:
+  [2m- waiting for locator('[title="Test 2 | Contact | Salesforce"]') to be visible[22m
+
