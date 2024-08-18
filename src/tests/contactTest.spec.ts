@@ -4,7 +4,7 @@ import logger from "../utils/LoggerUtil";
 import LoginPage from "../pages/LoginPage";
 import { decrypt } from "../utils/CryptoUtils";
 import * as dotenv from 'dotenv';
-import HomePage from "../pages/HomePage";
+//import HomePage from "../pages/HomePage";
 import { exportToCsv, exportToJson, generateTestData } from "../utils/FakerDataUtils";
 import { convertCsvFileToJsonFile } from "../utils/CsvToJSONUtil";
 
@@ -17,7 +17,7 @@ for( const contact of cdata){
         logger.info("Test for contact creation started");
         const loginPage= new LoginPage(page);
         loginPage.navigateToLoginPage();
-        await loginPage.fillUsername(decrypt(process.env.userid!));
+        await loginPage.fillUsername(decrypt(process.env.userid!)); 
         await loginPage.fillPassword(decrypt(process.env.password!));
         
         const homePage= await loginPage.clickLogin();

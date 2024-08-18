@@ -1,11 +1,12 @@
-import { Page, expect } from "@playwright/test";
+import { Page } from "@playwright/test";
 import logger from "../utils/LoggerUtil";
-import { link } from "fs/promises";
-import { error } from "console";
+// import { link } from "fs/promises";
+// import { error } from "console";
 
 export default class ContactPage{
     private readonly contactLink= "Contacts";
-    private readonly newButtonLocator = 'button[name="NewContact"]';
+    // private readonly newButtonLocator = 'button[name="NewContact"]';
+    private readonly newButtonLocator = 'New';
     private readonly firstNameTextFieldLocator = "First Name";
     private readonly lastNameTextFieldLocator = "Last Name";
     private readonly saveButtonLocator = "Save";
@@ -26,9 +27,9 @@ export default class ContactPage{
       //   logger.info("Contact button is clicked");
         await this.page.waitForLoadState('domcontentloaded');
 
-        const newButton = this.page.locator(this.newButtonLocator);
-        // await newButton.waitFor({ state: 'visible', timeout: 20000 });
-        await newButton.click();
+        await this.page.getByRole("button",{name: this.newButtonLocator}).click();
+        // const newButton = this.page.getByRole(this.newButtonLocator);
+        // await newButton.click();
         logger.info("Clicked on New Button");
         await this.page.getByPlaceholder(this.firstNameTextFieldLocator).click();
         await this.page.getByPlaceholder(this.firstNameTextFieldLocator).fill(fname);
