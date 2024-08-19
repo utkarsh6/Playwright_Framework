@@ -1,4 +1,4 @@
-import { defineConfig, devices } from '@playwright/test';
+import { defineConfig, devices, expect } from '@playwright/test';
 import { on } from 'events';
 
 /**
@@ -41,6 +41,8 @@ export default defineConfig({
     screenshot:'on',
     // headless:false
     headless: !!process.env.CI,
+    actionTimeout: 10000, // Timeout for each action like click, type, etc.
+    navigationTimeout: 30000, // Timeout for navigation actions
   },
 
   /* Configure projects for major browsers */
@@ -88,3 +90,4 @@ export default defineConfig({
   //   reuseExistingServer: !process.env.CI,
   // },
 });
+
